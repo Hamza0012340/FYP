@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-//Using Tarsos to get access to Microphone of the mobile
+//Using Tarsos to get access to Microphone of the mobile this code was retrieved form Tarsos documentation 
         AudioDispatcher dispatcher =
                 AudioDispatcherFactory.fromDefaultMicrophone(22050,1024,0);
         PitchDetectionHandler pdh = new PitchDetectionHandler() {
