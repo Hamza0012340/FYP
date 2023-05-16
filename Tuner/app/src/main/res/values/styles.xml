@@ -1,0 +1,11 @@
+<resources>
+    <style name="CustomRadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/custom_radio_button</item>
+    </style>
+
+    <style name="CustomRaBuPamirRubab" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/custum_rb_pamirirubab</item>
+    </style>
+
+
+</resources>

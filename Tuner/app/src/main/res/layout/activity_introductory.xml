@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Introductory">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:id="@+id/relativeLayout">
+
+        <ImageView
+            android:id="@+id/pamirirub"
+            android:layout_width="178dp"
+            android:layout_height="231dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="446dp"
+            android:layout_marginEnd="212dp"
+            android:layout_marginBottom="54dp"
+            android:rotation="45"
+            android:src="@drawable/pamirirubab"
+            app:layout_constraintBottom_toTopOf="@id/kyrgyzkom"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintVertical_bias="0.4"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <ImageView
+            android:id="@+id/kyrgyzkom"
+            android:layout_width="193dp"
+            android:layout_height="296dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="93dp"
+            android:src="@drawable/komuzimage__2_"
+            app:layout_constraintBottom_toTopOf="@id/afghanirubab"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintTop_toBottomOf="@id/pamirirub"
+            app:layout_constraintVertical_bias="0.4"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <ImageView
+            android:id="@+id/afghanirubab"
+            android:layout_width="186dp"
+            android:layout_height="292dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/afghaniii"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintTop_toBottomOf="@id/kyrgyzkom"
+            app:layout_constraintVertical_bias="0.4"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <ImageView
+            android:id="@+id/guitar"
+            android:layout_width="183dp"
+            android:layout_height="297dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="417dp"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/guitar"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintTop_toBottomOf="@id/guitar"
+            app:layout_constraintVertical_bias="0.4"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

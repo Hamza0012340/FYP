@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Мое приложение</string>
+    <string name="pamirirub">Памирский Рубаб</string>
+
+
+    <string name="select_your_instrument1">Выберите инструмент</string>
+    <string name="n1_select_your_instrument_from_the_options_provided">\n1. Выберите свой инструмент из предложенных вариантов.</string>
+    <string name="using_the_application">Использование приложения:</string>
+    <string name="n2_choose_the_string_you_want_to_tune_by_selecting_the_corresponding_radio_button_the_strings_are_numbered_from_1_to_3_or_1_to_6_depending_on_the_instrument_note_that_the_first_string_of_your_instrument_is_the_one_closest_to_the_ground">\n2. Выберите струну, которую хотите настроить, установив соответствующий переключатель. Струны пронумерованы от 1 до 3 или от 1 до 6, в зависимости от инструмента. Обратите внимание, что первая струна вашего инструмента находится ближе всего к земле.</string>
+    <string name="n4_the_current_frequency_of_the_played_string_will_be_shown_at_the_bottom_left_as_well">\n4. Текущая частота воспроизводимой струны также будет показана внизу слева.</string>
+    <string name="n3_once_you_ve_selected_the_string_the_note_and_frequency_to_which_you_should_tune_the_string_will_be_displayed_at_the_bottom_left_of_the_application">\n3. После того, как вы выбрали струну, нота и частота, на которую вы должны настроить струну, будут отображаться в левом нижнем углу приложения.</string>
+    <string name="n6_in_the_center_of_the_application_there_will_be_an_instrument_that_serves_as_an_arrow_with_the_upper_part_of_the_instrument_pointing_in_the_direction_if_the_instrument_points_upward_it_means_the_string_is_in_tune">\n6. В центре приложения будет инструмент, который служит стрелкой, при этом верхняя часть инструмента указывает направление. Если инструмент направлен вверх, это означает, что струна настроена.</string>
+    <string name="n7_surrounding_the_instrument_there_is_a_red_arc_that_will_turn_green_when_the_string_is_properly_tuned">\n7. Вокруг инструмента есть красная дуга, которая становится зеленой, когда струна правильно настроена.</string>
+    <string name="Help">Помощь</string>
+    <string name="alert">ТРЕВОГА!!!</string>
+    <string name="n5_the_top_middle_of_the_application_will_display_the_current_note_of_the_played_string_to_the_left_of_that_you_will_see_the_note_that_comes_before_the_current_note_and_to_the_right_the_upcoming_note">\n5. В верхней средней части приложения будет отображаться текущая нота воспроизводимой строки. Слева от него вы увидите заметку, которая предшествует текущей заметке, а справа — предстоящую заметку.</string>
+    <string name="afghanirubab">Афганский Рубаб</string>
+    <string name="kyrgyzkom">Комуз</string>
+    <string name="guitar">Гитара</string>
+</resources>

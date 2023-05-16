@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Tuner</string>
+    <string name="pamirirub">Pamiri Rubab</string>
+
+    <string name="select_your_instrument">Select Your Instrument</string>
+    <string name="select_your_instrument1">Select Your Instrument</string>
+    <string name="n1_select_your_instrument_from_the_options_provided">\n1. Select your instrument from the options provided.</string>
+    <string name="using_the_application">Using the Application:</string>
+    <string name="n2_choose_the_string_you_want_to_tune_by_selecting_the_corresponding_radio_button_the_strings_are_numbered_from_1_to_3_or_1_to_6_depending_on_the_instrument_note_that_the_first_string_of_your_instrument_is_the_one_closest_to_the_ground">\n2. Choose the string you want to tune by selecting the corresponding radio button. The strings are numbered from 1 to 3 or 1 to 6, depending on the instrument. Note that the first string of your instrument is the one closest to the ground.</string>
+    <string name="n4_the_current_frequency_of_the_played_string_will_be_shown_at_the_bottom_left_as_well">\n4. The current frequency of the played string will be shown at the bottom left as well.</string>
+    <string name="n3_once_you_ve_selected_the_string_the_note_and_frequency_to_which_you_should_tune_the_string_will_be_displayed_at_the_bottom_left_of_the_application">\n3. Once you\'ve selected the string, the note and frequency to which you should tune the string will be displayed at the bottom left of the application.</string>
+    <string name="n6_in_the_center_of_the_application_there_will_be_an_instrument_that_serves_as_an_arrow_with_the_upper_part_of_the_instrument_pointing_in_the_direction_if_the_instrument_points_upward_it_means_the_string_is_in_tune">\n6. In the center of the application, there will be an instrument that serves as an arrow, with the upper part of the instrument pointing in the direction. If the instrument points upward, it means the string is in tune.</string>
+    <string name="n7_surrounding_the_instrument_there_is_a_red_arc_that_will_turn_green_when_the_string_is_properly_tuned">\n7. Surrounding the instrument, there is a red arc that will turn green when the string is properly tuned.</string>
+    <string name="Help">Help</string>
+    <string name="alert">ALERT!!!</string>
+    <string name="n5_the_top_middle_of_the_application_will_display_the_current_note_of_the_played_string_to_the_left_of_that_you_will_see_the_note_that_comes_before_the_current_note_and_to_the_right_the_upcoming_note">\n5. The top middle of the application will display the current note of the played string. To the left of that, you will see the note that comes before the current note, and to the right, the upcoming note.</string>
+    <string name="afghanirubab">Afghani Rubab</string>
+    <string name="kyrgyzkom">Komuz</string>
+    <string name="guitar">Guitar</string>
+</resources>
