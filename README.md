@@ -1,97 +1,114 @@
+
 # Central Asian String Instruments Tuner
 
-**An Android application for real-time tuning of traditional Central Asian string instruments.**
+An Android application for real-time tuning of traditional Central Asian string instruments.
 
 **Developer:** Hamza Noyobshoev  
-**Institution:** University of Central Asia  
-**Project:** Independent BSc Computer Science Final-Year Project (2023)
+**University:** University of Central Asia (UCA)  
+**Project:** Independent BSc Computer Science Final-Year Project, 2023
 
 ## Overview
 
-Central Asian String Instruments Tuner is a Java-based Android application designed to assist musicians in tuning traditional string instruments using real-time audio processing.
+Central Asian String Instruments Tuner is a Java-based Android application designed to help musicians tune traditional Central Asian string instruments.
 
-The application supports four instruments:
+The application uses real-time audio processing to detect musical pitch through the device's microphone and provides visual feedback to guide the tuning process.
+
+The project was independently designed and developed as part of my Bachelor of Science in Computer Science at the University of Central Asia.
+
+## Supported Instruments
 
 - Pamiri Rubab
 - Afghan Rubab
 - Kyrgyz Komuz
 - Guitar
 
-The project combines digital signal processing, Android application development, and an interest in making technology accessible to musicians using traditional Central Asian instruments.
+Each instrument has a dedicated tuning interface with instrument-specific string selection and target frequencies.
 
-## Technologies
+## Technologies Used
 
-| Technology | Purpose |
-|---|---|
-| Java | Application development |
-| Android | Mobile application platform |
-| TarsosDSP | Audio processing and pitch detection |
-| FFT YIN | Pitch estimation algorithm |
-| Gradle | Android build configuration |
+- **Java** — Android application development
+- **Android SDK** — Mobile application framework
+- **TarsosDSP** — Digital audio processing
+- **FFT YIN** — Pitch estimation algorithm
+- **Gradle** — Project build management
 
 ## Key Features
 
 ### Real-Time Pitch Detection
-Uses microphone input and the FFT YIN pitch estimation algorithm through TarsosDSP to detect the frequency of a played string.
+
+The application captures audio through the device's microphone and uses the FFT YIN algorithm, implemented through the TarsosDSP library, to estimate the frequency of a played string.
 
 ### Instrument-Specific Tuning
-Provides dedicated interfaces for four instruments. Users select the instrument and the string they wish to tune.
 
-### Visual Feedback
-Displays the detected frequency, musical notes, and a visual tuning indicator. The tuning arc changes from red to green when the string reaches the target tuning range.
+Users can select one of four supported instruments and choose the string they wish to tune.
 
-### String Warning
-Includes a warning mechanism intended to alert users when the selected string may be incorrect or excessive tension may occur.
+### Visual Tuning Feedback
+
+The application displays the detected frequency and provides visual indicators to help users determine whether a string requires adjustment.
 
 ### Multilingual Interface
-Provides language selection options to improve accessibility for musicians from different linguistic backgrounds.
 
-### User Guidance
-Includes a help section explaining how to select instruments, choose strings, and interpret the tuning indicators.
+The application includes language selection functionality to make it more accessible to musicians from different linguistic backgrounds.
+
+### Help and Instructions
+
+An integrated help section explains how to use the application and interpret the tuning indicators.
 
 ## How It Works
 
-1. The user selects one of the four supported instruments.
-2. The user selects the string to tune.
-3. The application displays the target note and frequency.
-4. The microphone captures audio from the played string.
-5. TarsosDSP processes the audio and estimates its pitch using FFT YIN.
-6. The application displays the detected pitch and provides visual feedback.
-7. The user adjusts the string until the application indicates that it is in tune.
+1. Select the desired musical instrument.
+2. Choose the string to tune.
+3. Allow microphone access.
+4. Play the selected string.
+5. The application analyzes the audio signal using FFT YIN.
+6. The detected frequency is compared with the target frequency.
+7. Adjust the string while observing the visual tuning feedback.
 
 ## Testing and Validation
 
-The application was tested with physical examples of all four supported instruments.
+The application was tested using real examples of all four supported instruments:
 
-The developer continues to use the application to tune a Pamiri Rubab, demonstrating its practical utility beyond the original university project.
+- Pamiri Rubab
+- Afghan Rubab
+- Kyrgyz Komuz
+- Guitar
 
-## Known Limitations
+The application remains in practical use more than three years after its initial development. I continue to use it to tune my own Pamiri Rubab.
 
-- Language switching does not always function consistently.
-- Pitch detection may be less reliable in noisy environments or when instruments produce complex harmonics.
-- The application requires microphone permission to process audio.
+## Project Significance
+
+This project combines software engineering, digital signal processing, and traditional Central Asian musical practices.
+
+It demonstrates how computer science can be applied to practical challenges while supporting the accessibility of regional cultural traditions.
+
+The project also demonstrates independent problem-solving, algorithm integration, Android application development, and real-world software testing.
 
 ## Future Improvements
 
-- Improve multilingual interface reliability.
-- Evaluate noise reduction and alternative pitch estimation methods.
-- Expand support for additional regional instruments and tuning variations.
-- Improve compatibility with newer Android versions.
+Potential enhancements include:
 
-## Academic Background
+- Improving language-switching reliability
+- Enhancing pitch detection in noisy environments
+- Supporting additional traditional instruments
+- Introducing customizable tuning configurations
+- Improving compatibility with newer Android versions
 
-This project was independently designed and developed as part of the Bachelor of Science in Computer Science program at the University of Central Asia.
+## Academic Context
 
-It demonstrates the practical application of software engineering and digital signal processing to a culturally relevant problem.
+**University:** University of Central Asia  
+**Degree:** Bachelor of Science in Computer Science  
+**Graduation:** 2023  
+
+This application was developed independently as my undergraduate final-year project.
 
 ## Author
 
 **Hamza Noyobshoev**  
 BSc Computer Science,
-University of Central Asia, 2023
+University of Central Asia
 
 GitHub: https://github.com/Hamza0012340
 
 ## License
 
-No license has been specified. All rights remain with the copyright holder unless a license is added.
+No open-source license has been specified for this repository.
